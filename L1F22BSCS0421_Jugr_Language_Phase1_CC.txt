@@ -1,0 +1,7 @@
+Name: Fahad Ali
+Registration ID: L1F22BSCS0421
+Course: Compiler Construction
+Programming_Language:Jugr
+Project Phase 1:
+Github Link:
+https://github.com/FahadAli0421/jugr_Programming_Language_Project_Phase1_L1F22BSCS0421
