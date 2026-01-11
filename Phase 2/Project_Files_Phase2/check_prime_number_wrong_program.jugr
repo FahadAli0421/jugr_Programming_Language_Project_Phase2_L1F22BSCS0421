@@ -1,0 +1,29 @@
+// This program checks if a number is prime by counting its factors. semicolon is missing at line 26.
+khali_kaam_kar shuru_hoja() 
+{ 
+    pura_number n; 
+    likhle("Enter Number: "); 
+    sunle(" ", n); 
+    pura_number factor_count = 0; 
+    ghuma_de(pura_number i = 1; i se_bada_ya_barabar_ha n; i++) 
+    { 
+        maan_lo_ye(n % i ke_barabar_ha 0) 
+        { 
+            factor_count = factor_count + 1; 
+        } 
+    } 
+    pura_number is_prime = 0; 
+    maan_lo_ye(factor_count ke_barabar_ha 2)
+    { 
+        is_prime = 1; 
+    } 
+    maan_lo_ye(is_prime ke_barabar_ha 1)
+    { 
+        likhle(n + " is prime number"); 
+    } 
+    bas_maan_lo_bhai 
+    { 
+        likhle(n + " is not prime number") 
+    } 
+    nikal_lo 0;
+}

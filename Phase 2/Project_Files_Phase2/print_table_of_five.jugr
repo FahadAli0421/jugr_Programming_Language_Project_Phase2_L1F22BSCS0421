@@ -1,0 +1,7 @@
+khali_kaam_kar shuru_hoja() {
+    pura_number i; 
+    ghuma_de (i = 1; i se_chota_ya_barabar_ha 10; i++) {
+        likhle("5 * " + i + " = " + (5 * i));
+    }
+    nikal_lo 0;
+}
